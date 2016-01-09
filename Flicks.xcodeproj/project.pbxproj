@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					B4F8721D1C41C86A003AECE0 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 29NV35KE97;
 					};
 					B4F872311C41C86B003AECE0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -400,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Flicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gorath.Flicks;
@@ -411,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Flicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gorath.Flicks;
