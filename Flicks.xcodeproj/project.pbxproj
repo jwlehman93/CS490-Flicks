@@ -14,6 +14,7 @@
 		B4F872371C41C86B003AECE0 /* FlicksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F872361C41C86B003AECE0 /* FlicksTests.swift */; };
 		B4F872421C41C86B003AECE0 /* FlicksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F872411C41C86B003AECE0 /* FlicksUITests.swift */; };
 		B4F872521C41D520003AECE0 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F872511C41D520003AECE0 /* MoviesViewController.swift */; };
+		B4F872581C43FCD1003AECE0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F872571C43FCD1003AECE0 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B4F872411C41C86B003AECE0 /* FlicksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlicksUITests.swift; sourceTree = "<group>"; };
 		B4F872431C41C86B003AECE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F872511C41D520003AECE0 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		B4F872571C43FCD1003AECE0 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		B4F872531C43FC07003AECE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B4F872571C43FCD1003AECE0 /* MovieCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				B4F872221C41C86A003AECE0 /* AppDelegate.swift in Sources */,
 				B4F872521C41D520003AECE0 /* MoviesViewController.swift in Sources */,
+				B4F872581C43FCD1003AECE0 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
